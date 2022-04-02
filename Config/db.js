@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 const MONGODB_URI =
   "mongodb+srv://W8PypVqIRJXDReMh:W8PypVqIRJXDReMh@cluster0.1nq2x.mongodb.net/gidinite?retryWrites=true&w=majority";
 
+const NEWURI = "mongodb://localhost/";
+
 mongoose.connect(MONGODB_URI);
 
 mongoose.connection
